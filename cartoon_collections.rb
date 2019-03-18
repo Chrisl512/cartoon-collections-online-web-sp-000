@@ -29,11 +29,11 @@ def find_the_cheese(array_strings)
       return match
 end
 
-def find_the_cheese(array_strings)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  array_strings.each do |cheese|
-    if cheese_types.include?(cheese)
-      return cheese
-    end
-  end
-end
+#def find_the_cheese(array_strings)
+#  cheese_types = ["cheddar", "gouda", "camembert"]
+#  array_strings.each do |cheese|
+#    if cheese_types.include?(cheese)
+#      return cheese
+#    end
+#  end
+#end
