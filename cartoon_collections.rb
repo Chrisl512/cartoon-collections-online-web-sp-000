@@ -36,7 +36,7 @@ def find_the_cheese(array_strings)
     if cheese_types.include?(cheese)
       match = cheese
       new_array << match
-      return new_array
+      return new_array.string
     end
   end
 end
